@@ -8,13 +8,13 @@
  * /
 
 / **
- * @fileoverview string Bahasa Inggris Tradisional.
+ * @fileoverview string Bahasa Indonesia.
  * /
-'gunakan yang ketat';
+'use strict';
 
-goog.provide ('AI.Blockly.Msg.en');
+goog.provide ('AI.Blockly.Msg.id');
 
-goog.require ('Blockly.Msg.en');
+goog.require ('Blockly.Msg.id');
 
 / **
  * Karena frekuensi string panjang, aturan bungkus 80-kolom tidak perlu berlaku
@@ -23,12 +23,12 @@ goog.require ('Blockly.Msg.en');
 
 Blockly.Msg.en.switch_language_to_english = {
   // Beralih bahasa ke Bahasa Inggris.
-  kategori: '',
+  category: '',
   helpUrl: '',
   init: function () {
 // Menu konteks.
-    Blockly.Msg.UNDO = 'Undo';
-    Blockly.Msg.REDO = 'Redo';
+    Blockly.Msg.UNDO = 'Batal';
+    Blockly.Msg.REDO = 'Ulangi';
     Blockly.Msg.CLEAN_UP = 'Bersihkan Blok';
     Blockly.Msg.HIDE = 'Sembunyikan Kontrol Ruang Kerja';
     Blockly.Msg.SHOW = 'Tampilkan Kontrol Ruang Kerja';
@@ -107,13 +107,13 @@ Blockly.Msg.en.switch_language_to_english = {
 // Blok Warna.
     Blockly.Msg.LANG_COLOUR_PICKER_HELPURL = 'https://docs.kodular.io/blocks/colors#basic';
     Blockly.Msg.LANG_COLOUR_PICKER_TOOLTIP = 'Klik kotak untuk memilih warna.';
-    Blockly.Msg.LANG_COLOUR_WHITE = 'white';
+    Blockly.Msg.LANG_COLOUR_WHITE = 'putih';
     Blockly.Msg.LANG_COLOUR_LIGHT_GRAY = 'abu-abu terang';
-    Blockly.Msg.LANG_COLOUR_GRAY = 'grey';
-    Blockly.Msg.LANG_COLOUR_BLUE_GRAY = 'blue grey';
+    Blockly.Msg.LANG_COLOUR_GRAY = 'abu-abu';
+    Blockly.Msg.LANG_COLOUR_BLUE_GRAY = 'biru abu-abu';
     Blockly.Msg.LANG_COLOUR_DARK_GRAY = 'abu-abu gelap';
     Blockly.Msg.LANG_COLOUR_BLACK = 'hitam';
-    Blockly.Msg.LANG_COLOUR_RED = 'red';
+    Blockly.Msg.LANG_COLOUR_RED = 'merah';
     Blockly.Msg.LANG_COLOUR_PINK = 'pink';
     Blockly.Msg.LANG_COLOUR_PURPLE = 'ungu';
     Blockly.Msg.LANG_COLOUR_DEEP_PURPLE = 'ungu tua';
@@ -125,7 +125,7 @@ Blockly.Msg.en.switch_language_to_english = {
     Blockly.Msg.LANG_COLOUR_GREEN = 'hijau';
     Blockly.Msg.LANG_COLOUR_LIGHT_GREEN = 'hijau muda';
     Blockly.Msg.LANG_COLOUR_LIME = 'lime';
-    Blockly.Msg.LANG_COLOUR_YELLOW = 'yellow';
+    Blockly.Msg.LANG_COLOUR_YELLOW = 'kuning';
     Blockly.Msg.LANG_COLOUR_AMBER = 'amber';
     Blockly.Msg.LANG_COLOUR_ORANGE = 'oranye';
     Blockly.Msg.LANG_COLOUR_DEEP_ORANGE = 'oranye tua';
@@ -1862,6 +1862,6 @@ Blockly.Msg.en.switch_language_to_english = {
   }
 };
 
-// Inisialisasi definisi bahasa ke bahasa Inggris
-Blockly.Msg.en.switch_blockly_language_to_en.init ();
-Blockly.Msg.en.switch_language_to_english.init ();
+// Inisialisasi definisi bahasa ke bahasa Indonesia
+Blockly.Msg.id.switch_blockly_language_to_id.init ();
+Blockly.Msg.id.switch_language_to_indonesia.init ();
